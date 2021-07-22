@@ -1,46 +1,96 @@
-# Getting Started with Create React App
+<h1 align="center"> Cervejaria Cidade Imperial
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Tela Inicial cervejaria" title="#Cervejaria" src="./imgGit/1.png" />
+</h1>
 
-## Available Scripts
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
+## 💻 Sobre o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A Cervejaria React é um projeto desenvolvido na tentativa minha de criar um slide-show. Trata-se de uma landpage que as imagens vão passando no sentido em que a seta foi clicada, ou automaticamente.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎨 Layout
 
-### `yarn build`
+### Tela do MoveIt
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Pagina Inicial" title="#CervejariaSlide" src="./imgGit/1.png" width="400px">
+</p>
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Pagina Inicial" title="#CervejariaSlide" src="./imgGit/2.png" width="400px">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## 🚀 Como executar o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Este projeto possui uma pasta:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Frontend 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Pré-requisitos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## Learn More
+### 🧭 Rodando a aplicação web
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Clone este repositório
+$ git clone github.com/IranildoFs/cervejaria_react.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd cervejaria_react
+
+# Vá para a pasta da aplicação Front End
+$ cd ccccccc
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start 
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React]**
+-   **[TypeScript]**
+
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+## 🦸 Autor
+
+Iranildo Fialho da Silva
